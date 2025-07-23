@@ -25,9 +25,11 @@ public class Product {
 
     @NotNull
     @Positive
-    private int quantity;
+    private Integer quantity;
 
-    public Product(String name, String description, double price, int quantity) {
+    public Product (){}
+
+    public Product(String name, String description, double price, Integer quantity) {
         this.name = name;
         this.description = description;
         this.price = price;
